@@ -24,17 +24,17 @@ void setup() {
 }
 
 void loop() {
-	if (digitalRead(buttons[0])       tone(buzzer, DO);
-	else if (digitalRead(buttons[1])  tone(buzzer, DO_SUSTENIDO);
-	else if (digitalRead(buttons[2])  tone(buzzer, RE);
-	else if (digitalRead(buttons[3])  tone(buzzer, RE_SUSTENIDO);
-	else if (digitalRead(buttons[4])  tone(buzzer, MI);
-	else if (digitalRead(buttons[5])  tone(buzzer, FA);
-	else if (digitalRead(buttons[6])  tone(buzzer, FA_SUSTENIDO);
-	else if (digitalRead(buttons[7])  tone(buzzer, SOL);
-	else if (digitalRead(buttons[8])  tone(buzzer, SOL_SUSTENIDO);
-	else if (digitalRead(buttons[9])  tone(buzzer, LA);
-	else if (digitalRead(buttons[10]) tone(buzzer, LA_SUSTENIDO);
-	else if (digitalRead(buttons[11]) tone(buzzer, SI);
+	if (digitalRead(buttons[0]))       tone(buzzer, DO);
+	else if (digitalRead(buttons[1]))  tone(buzzer, DO_SUSTENIDO);
+	else if (digitalRead(buttons[2]))  tone(buzzer, RE);
+	else if (digitalRead(buttons[3]))  tone(buzzer, RE_SUSTENIDO);
+	else if (digitalRead(buttons[4]))  tone(buzzer, MI);
+	else if (digitalRead(buttons[5]))  tone(buzzer, FA);
+	else if (digitalRead(buttons[6]))  tone(buzzer, FA_SUSTENIDO);
+	else if (digitalRead(buttons[7]))  tone(buzzer, SOL);
+	else if (digitalRead(buttons[8]))  tone(buzzer, SOL_SUSTENIDO);
+	else if (digitalRead(buttons[9]))  tone(buzzer, LA);
+	else if (digitalRead(buttons[10])) tone(buzzer, LA_SUSTENIDO);
+	else if (digitalRead(buttons[11])) tone(buzzer, SI);
 	else noTone(buzzer);
 }
