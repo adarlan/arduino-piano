@@ -2,7 +2,11 @@
 
 Sketch para Arduino que simula um piano usando um *buzzer* e alguns *push-buttons*.
 
-## LICENSE
+## Contributors
+
+[Adarlan Teixeira](adarlan.me)
+
+## License
 
 Este projeto está sob a licença [Beerware](LICENSE).
 
